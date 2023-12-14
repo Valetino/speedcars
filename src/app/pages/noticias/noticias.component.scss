@@ -1,0 +1,107 @@
+
+#boten{
+  position: absolute;
+  height: 20px;
+  width: 10px;
+  top: 5px;
+  left: 5px;
+
+
+}
+
+ article {
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+    color: #ffffff;
+ font-weight: bold;
+}
+
+p {
+  color: #ffffff;
+}
+
+.img-thumbnail {
+  width: 300px;
+  height: auto;
+  border: 5px solid #460202; 
+  border-radius: 4px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #4d0202aa;
+ 
+  
+}
+
+.img-thumbnail:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+button {
+
+  color: black;
+  font-size: 8px;
+  
+button {
+  border: 0;
+ 
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 8px;
+  padding: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button span {
+  background-color: #fcfcfc;
+  padding: 10px 12px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+
+button:hover span {
+  background-color: transparent;
+}
+
+button:active {
+  transform: scale(0.8);
+}
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button span {
+  background-color: #070101;
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+
+button:hover span {
+  background-color: transparent;
+}
+
+button:active {
+  transform: scale(0.8);
+}
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+a{
+  color: #460202;
+}

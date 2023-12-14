@@ -1,0 +1,39 @@
+<section >
+  <div class="dark">
+   
+    <div
+     id="fabi">
+      <div class="dark">
+        <h1 >
+          Sign Up
+        </h1>
+        <div >
+          <div>
+            <label for="email" class="">Your email</label>
+            <input type="email" name="email" id="email" #email
+              class=""
+              placeholder="example@email.com" required>
+          </div>
+          <div>
+            <label for="password" class="">Password</label>
+            <input type="password" name="password" id="password" placeholder="••••••••" #password
+              class=""
+              required>
+          </div>
+          <div id="buten">
+
+          <button   type="click" (click)="signUp(email.value, password.value)"
+            class="clase">
+            Sign Up
+          </button>
+        </div>
+          <p class="text">
+            Do you already have an account?
+            <a href="#" class="dirigir"
+              routerLink="/login">Log In</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

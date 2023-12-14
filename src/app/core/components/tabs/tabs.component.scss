@@ -1,0 +1,51 @@
+@use "./../../../../assets/styles/variables.scss";
+
+#container{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 40px;
+ margin: 10px;
+}
+
+
+
+
+.footer-buttons {
+  position: sticky;
+ 
+  width: 100%;
+  justify-content: space-around;
+  
+  }
+  
+  button {
+    border: 0;
+    background-image: linear-gradient(
+      150deg,
+      rgb(65, 3, 3),
+      rgb(189, 20, 5),
+      #b43b0b
+    );
+    border-radius: 15px;
+    color: #fff;
+    font-size: 12px;
+    padding: 14px; 
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+
+button span{
+    background-color: #070101;
+    padding: 10px 12px;
+    border-radius: 20px;
+
+    transition: .3s;
+}
+button:hover span {
+    background: none;
+}
+button:active {
+    transform: scale(0,2)
+}

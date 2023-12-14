@@ -1,0 +1,13 @@
+<div id="container">
+   <div id="foto" [ngStyle]="{'background-image': 'url('+producto.fotoUrl+')'}"></div>
+   <div id="detalles">
+    <h3>{{producto.nombre}}</h3>
+    <ul>
+        <li>
+            <h5>{{producto.descripcion}}</h5>
+            <h5>{{producto.modelo}}</h5>
+        </li>
+    </ul>
+    <p id="precio">${{producto.precio}}</p>
+   </div>
+</div>

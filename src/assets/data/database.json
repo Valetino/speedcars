@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "nombre": "autos",
+        "fotoUrl": "https://media.a24.com/p/70501acf46245b66592b9e3cef7224b5/adjuntos/296/imagenes/008/168/0008168429/1200x675/smart/los-mejores-autos-clasicos-argentinos.jpeg",
+        "productos":[
+            {
+                "id": 1,
+                "nombre": "Chevrolet Camaro",
+                "fotoUrl": "https://www.chevrolet.com.ar/content/dam/chevrolet/mercosur/argentina/espanol/index/performance/2018-camaro-conversivel/colorizer/01-images/novo-camaro-conversivel-2018-amarelo-mov-intro-01.png?imwidth=960",
+                "precio": 16855000,
+                "descripcion": "Motor: 4 cilindros, 230 hp",
+                "modelo": 2022
+            },
+            {
+                "id": 2,
+                "nombre": "Ford Mustang",
+                "fotoUrl": "https://www.pngall.com/wp-content/uploads/13/Ford-Mustang.png",
+                "precio": 19345000,
+                "descripcion": "Motor: 4 cilindros, 300 hp",
+                "modelo": 2023
+            },
+            {
+                "id": 3,
+                "nombre": "BMW M2 Coupe",
+                "fotoUrl": "https://www.motortrend.com/uploads/sites/10/2019/02/2019-bmw-m2-competition-coupe-angular-front.png",
+                "precio": 25890000,
+                "descripcion": "Motor: 6 cilindros, 460 hp",
+                "modelo": 2019
+            },
+            {
+                "id": 4,
+                "nombre": "Porche 911",
+                "fotoUrl": "https://purepng.com/public/uploads/large/purepng.com-red-porsche-911-gt3-rs-4-carcarvehicletransportporsche-961524661235vbivb.png",
+                "precio": 15321000,
+                "descripcion": "Motor: 4 cilindros, 240 hp",
+                "modelo": 2009
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "camionetas",
+        "fotoUrl": "https://autotest.com.ar/wp-content/uploads/2022/05/Volkswagen-Touareg-edition-20-frente.jpg",
+        "productos":[
+            {
+                "id": 1,
+                "nombre": "Ford Territory",
+                "fotoUrl": "https://www.sapac.com.ar/images/cars/nueva-territory-image-1605117736.png",
+                "precio": 29450000,
+                "descripcion": "Motor: 6 cilindros, 370 hp",
+                "modelo": 2024
+            },
+            {
+                "id": 2,
+                "nombre": "Audi Q3",
+                "fotoUrl": "https://www.audicanarias.com/content/dam/nemo/cani/Modelos/Q3/q3-blanco-glaciar.png",
+                "precio": 32578000,
+                "descripcion": "Motor: 6 cilindros, 380 hp",
+                "modelo": 2021
+            },
+            {
+                "id": 3,
+                "nombre": "BMW X5",
+                "fotoUrl": "https://www.bmw.com.mx/content/dam/bmw/common/all-models/m-series/x5m/2023/navigation/bmw-m-series-x5-m-modelfinder.png",
+                "precio": 45700000,
+                "descripcion": "Motor: 6 cilindros, 460 hp",
+                "modelo": 2020
+            },
+            {
+                "id": 4,
+                "nombre": "Rand Rover Evoque",
+                "fotoUrl": "https://www.pngall.com/wp-content/uploads/5/Land-Rover-Range-Rover-Evoque-PNG-HD-Image.png",
+                "precio": 41986000,
+                "descripcion": "Motor: 4 cilindros, 390 hp",
+                "modelo": 2024
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "motos",
+        "fotoUrl": "https://media.revistagq.com/photos/61cdd0f759ab05088d9a51c7/master/w_1600%2Cc_limit/6BDB4FF4-A0E9-4CB4-9BAE-97206B7AD05E.jpeg",
+        "productos":[
+            {              
+                "id": 1,
+                "nombre": "Kawasaki Ninja",
+                "fotoUrl": "https://i.pinimg.com/originals/31/06/4c/31064cad80b23492e34c2ef530ab0597.png",
+                "precio": 22000000,
+                "descripcion": "Motor: 4 cilindros, 340 hp",
+                "modelo": 2019
+            },
+            {              
+                "id": 2,
+                "nombre": "Ducati Streetfighter S",
+                "fotoUrl": "https://ducati.co.za/wp-content/uploads/2020/07/Streetfighter-V4-S-Red-1024x634.png",
+                "precio": 29850000,
+                "descripcion": "Motor: 4 cilindros, 230 hp",
+                "modelo": 2021
+            },
+            {
+                "id": 3,
+                "nombre": "BMW s1000rr",
+                "fotoUrl": "https://i.pinimg.com/originals/d3/99/51/d399517304b541b1498e604663786fac.png",
+                "precio": 33000000,
+                "descripcion": "Motor: 4 cilindros, 390 hp",
+                "modelo": 2023
+            },
+            {
+                "id": 4,
+                "nombre": "KTM Super Duke R ",
+                "fotoUrl": "https://www.ktm.cl/media/ktm/ktmgroup-storage/PHO_BIKE_90_RE_1290-sdr-evo-22-bl-90re_%23SALL_%23AEPI_%23V1.png",
+                "precio": 25428000,
+                "descripcion": "Motor: 4 cilindros, 400 hp",
+                "modelo": 2024
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "premium",
+        "fotoUrl":"https://i.blogs.es/2ea52c/phenom_300e_1819_2100x1400_300_rgb/1366_2000.jpg",
+        "productos":[
+            {
+                "id": 1,
+                "nombre": "Aviator TP 600 Vulcanai",
+                "fotoUrl": "https://www.mercuryjets.com/wp-content/uploads/2022/01/Private-Jet-Charter-Vulcanair-Aviator-TP-600.png",
+                "precio": 453670000,
+                "descripcion": "turbinas: 2, 750 hp, 8 pasajeros",
+                "modelo": 2009
+            },
+            {
+                "id": 2,
+                "nombre": "Embraer Phenom 300",
+                "fotoUrl": "https://marvel-b1-cdn.bc0a.com/f00000000227764/www.nicholasair.com/wp-content/uploads/2021/04/phenom-300-btn-2.png",
+                "precio": 395780000,
+                "descripcion": "turbinas: 2, 600 hp, 8 pasajeros",
+                "modelo": 2012
+            },
+            {
+                "id": 3,
+                "nombre": "Bombardier Learjet 45",
+                "fotoUrl": "https://w7.pngwing.com/pngs/1005/138/png-transparent-business-jet-cessna-citationjet-m2-airplane-cessna-400-aircraft-airplane-general-aviation-mode-of-transport-airplane.png",
+                "precio": 340987000,
+                "descripcion": "turbinas: 2, 560 hp, 12 pasajeros",
+                "modelo": 2018
+            },
+            {
+                "id": 4,
+                "nombre": "Cessna Citation II",
+                "fotoUrl": "https://360view.3dmodels.org/zoom/Aircraft/Cessna_Citation_II_1000_0001.jpg",
+                "precio": 311900000,
+                "descripcion": "turbinas: 2, 450 hp, 14 pasajeros",
+                "modelo": 2023
+            }
+        ]
+    }
+]

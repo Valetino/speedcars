@@ -1,0 +1,34 @@
+<section>
+  <div class="dark">
+    <div id="fabi">
+      <div class="dark">
+        <div>
+          <h1>Log in to your account</h1>
+          <div class="space-y-4">
+            <div>
+              <label for="email">Your email</label>
+              <input type="email" name="email" id="email" #email required>
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" placeholder="••••••••" #password required>
+            </div>
+            <div id="buten">
+            <button id="sing-in" type="click" (click)="logIn(email.value, password.value)">Log in</button>
+            <button id="click" (click)="logInWithGoogle()">
+              <div>
+                <img src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo">
+              </div>
+              <span>Log in with Google</span>
+            </button>
+          </div>
+            <p class="text">
+              Don’t have an account yet?
+              <a href="#" id="dirigir" routerLink="/sign-up">Sign up</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

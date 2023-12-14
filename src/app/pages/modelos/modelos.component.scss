@@ -1,0 +1,30 @@
+#contenedor-productos{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    #boton {
+        position: absolute;
+        height: 20px;
+        width: 10px;
+        top: 15px;
+        left: 20px;
+      }
+      
+      .back-button {
+        border: none;
+        cursor: pointer;
+        
+      }
+      
+      .back-button img {
+        width: 40px; 
+        height: 40px;
+        overflow: hidden;
+      }
+body{
+    background-color: black;
+}
+      

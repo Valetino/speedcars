@@ -1,0 +1,104 @@
+
+section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+   
+    background-image: url(./../../../assets/images/Car.png);
+    background-size: cover;
+    background-position: center;
+  
+    div.dark {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      
+      
+     
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+      h1 {
+        color: #ffffff;
+        margin-bottom: 20px;
+        text-align: center;
+        
+      }
+  
+      label {
+        color: #fff;
+        margin-bottom: 5px;
+      }
+  
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+      input:hover{
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+      }
+  
+ 
+        
+     button{
+        margin-top: 20px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            color: #000000;
+            background-color: #e92020;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: flex;
+             justify-content: center;
+            align-items: center;  
+            padding: 10px 10px;
+            
+          
+            margin-bottom: 10px;
+            border: none;
+       
+             }
+      button:hover{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+      }
+           
+       button.clase{
+        justify-content: center;
+        font-weight: bold;
+       }
+      }
+     
+       
+
+  
+     .text {
+        color: #fff;
+        text-align: center;
+     }
+  
+  .dirigir{
+          color: #fa0000;
+          text-decoration: none;
+        }
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      #buten{
+        padding-left: 20px;
+      }
+    
+  #fabi{
+    margin-top: 120px;
+  }
